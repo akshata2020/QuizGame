@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RISC CISC AND MEMORY MANAGEMENT</title>
+    <style>
+        body{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+  <h2>RISC Processor</h2> <br>
+  <p>RISC stands for Reduced Instruction Set Computer Processor, a microprocessor architecture with a simple collection
+    <br> highly customized set of instructions. It is built to minimize the instruction execution time by optimizing and<br>
+     limiting the number of instructions. It means each instruction cycle requires only one clock cycle, and each cycle<br>
+      contains three parameters: fetch, decode and execute.<br> The RISC processor is also used to perform various <br>
+      complex instructions by combining them into simpler ones. RISC chips require several transistors, making it cheaper <br>
+      to design and reduce the execution time for instruction.<br>
+
+    Examples of RISC processors are SUN's SPARC, PowerPC, Microchip PIC processors, RISC-V.
+    </p><br>
+    <h2>Advantages of RISC Processor</h2>
+    <li>The RISC processor's performance is better due to the simple and limited number of the instruction set.
+    </li><li>It requires several transistors that make it cheaper to design.</li>
+    <li>RISC allows the instruction to use free space on a microprocessor because of its simplicity.</li>
+    <li>RISC processor is simpler than a CISC processor because of its simple and quick design, and it can complete its work in one clock cycle.</li>
+<br>
+<h2>Disadvantages of RISC Processor</h2>
+<li>The RISC processor's performance may vary according to the code executed because subsequent instructions may depend on the previous instruction for their execution in a cycle.
+    <li>Programmers and compilers often use complex instructions.</li>
+    <li>processors require very fast memory to save various instructions that require a large collection of cache memory to respond to the instruction in a short time.</li>
+<h2>RISC ARCHITECHRE</h2>
+<img src="https://static.javatpoint.com/blog/images/risc-vs-cisc.png" alt="Risc Architechture">
+<h2>Features of RISC Processor</h2><br>Some important features of RISC processors are:<br>
+<li> One cycle execution time: For executing each instruction in a computer, the RISC processors require one CPI (Clock per cycle). And each CPI includes the fetch, decode and execute method applied in computer instruction.</li>
+    <li>Pipelining technique: The pipelining technique is used in the RISC processors to execute multiple parts or stages of instructions to perform more efficiently.</li>
+    <li>A large number of registers: RISC processors are optimized with multiple registers that can be used to store instruction and quickly respond to the computer and minimize interaction with computer memory.</li>
+   <li> It supports a simple addressing mode and fixed length of instruction for executing the pipeline.</li>
+    <li>It uses LOAD and STORE instruction to access the memory location.</li>
+    <li>Simple and limited instruction reduces the execution time of a process in a RISC.</li>
+<h2>CISC Processor</h2><br>
+<p>The CISC Stands for Complex Instruction Set Computer, developed by the Intel. It has a large collection of complex instructions <br>
+    that brange from simple to very complex and specialized in the assembly language level,<br>
+     which takes a long time to execute the instructions. So, CISC approaches reducing the number of instruction on each program<br>
+      and ignoring the number of cycles per instruction. It emphasizes to build complex instructions directly in the hardware because<br>
+       the hardware is always faster than software. However, CISC chips are relatively slower as compared to RISC chips but use little<br>
+        instruction than RISC. Examples of CISC processors are VAX, AMD, Intel x86 and the System/360.</p>
+        <h2>Characteristics of CISC Processor</h2>
+        <li>The length of the code is shorts, so it requires very little RAM.</li>
+          <li> CISC or complex instructions may take longer than a single clock cycle to execute the code.</li>
+           <li> Less instruction is needed to write an application.</li>
+           <li> It provides easier programming in assembly language.</li>
+           <li>Support for complex data structure and easy compilation of high-level languages.</li>
+           <li> It is composed of fewer registers and more addressing nodes, typically 5 to 20.</li>
+           <li>  Instructions can be larger than a single word.</li>
+           <li> It emphasizes the building of instruction on hardware because it is faster to create than the software.
+            </li>
+            <h2>CISC Processors Architecture</h2>
+             <img src="https://static.javatpoint.com/blog/images/risc-vs-cisc2.png" alt="cisc architecture">
+
+    <h2>Advantages of CISC Processors</h2>
+
+<li>The compiler requires little effort to translate high-level programs or statement languages into assembly or machine language in CISC processors. </li>
+   <li>The code length is quite short, which minimizes the memory requirement. </li>
+        <li>To store the instruction on each CISC, it requires very less RAM. </li>
+            <li>Execution of a single instruction requires several low-level tasks. </li>
+                <li>CISC creates a process to manage power usage that adjusts clock speed and voltage. </li>
+                    <li>It uses fewer instructions set to perform the same instruction as the RISC. </li>
+<h2>Disadvantages of CISC Processors</h2>
+<li>CISC chips are slower than RSIC chips to execute per instruction cycle on each program. </li>
+<li>The performance of the machine decreases due to the slowness of the clock speed. </li>
+<li>Executing the pipeline in the CISC processor makes it complicated to use. </li>
+<li>The CISC chips require more transistors as compared to RISC design. </li>
+<li>In CISC it uses only 20% of existing instructions in a programming event. </li>
+</body>
+</html>
